@@ -19,7 +19,7 @@ export class Task {
 
 
     onCompleteTask() {
-    this.tasksService.removeTask(this.task?.id);
+      this.tasksService.removeTask(this.task?.id);
   }
 
 }
